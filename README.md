@@ -13,7 +13,7 @@ You need some kind of arduino board and a dc motor controller that is capable of
 
 ### Setting up
 
-* The analog signals from your tps and accelerator pedal must be connected to the appropiate ANALOG pins on the arduino. Usually 4 signals. A0A1A2A3
+* The analog signals from your tps and accelerator pedal must be connected to the appropiate ANALOG pins on the arduino. Usually 4 signals. A0,A1,A2,A3 Analog pins.
 * By default there is a1 DIGTAL direction pin (sets direction forwards/backwards) and 1 PWM-DIGITAL pin for pwm output. Marked with ~ .
 * Setup common ground
 * Make sure that you supply the correct voltage to your parts (5v for arduino, controller board and sensors, 12V for the dc motor)
